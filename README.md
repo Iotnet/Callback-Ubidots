@@ -113,7 +113,7 @@ En este ejemplo, cada mensaje contiene 4 variables con los siguientes formatos:
 
 considerando lo anterior, tenemos el codigo siguiente
 
-https://github.com/Iotnet/Callback-Ubidots/blob/main/codigo%20ejemplo
+(codigo)[https://github.com/Iotnet/Callback-Ubidots/blob/main/codigo%20ejemplo]
 
 (dependiendo de la estructura de los mensajes, cambia el código requerido para la decodificación)
 
@@ -125,9 +125,15 @@ para probar nuestro codigo, podemos ir a los mensajes de nuestro dispositivo, da
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git22.png?raw=true)
 
+una vez copiamos el json, lo pegamos en el recuadro de TEST PAYLOAD y damos clic en TEST RUN
+
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git23.png?raw=true)
 
+enseguida aparecerá la consola y comenzara a correr nuestro codigo. Despues de unos segundos, si nuestro codigo es correcto, veremos en el recuadro de LOG, las variables y sus valores, asi como la leyenda "Response [200]", lo que indica que las variables se guardaron en el dispositivo exitosamente. Igualmente, del lado izquierdo veremos la confirmacion de cada variable con la respuesta 201
+
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git24.png?raw=true)
+
+Ahora si regresamos al dsipositivo dentro de Ubidots, veremos las variables que se crearon por medio del codigo
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git25.png?raw=true)
 
