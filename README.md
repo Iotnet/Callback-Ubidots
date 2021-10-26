@@ -84,3 +84,18 @@ tambien podemos corroborarlo llendo a nuestra cuenta de ubidots, en nuestro plug
 finalmente, si vamos a la pestaña de DEVICES, veremos que se creó un dispositivo con el ID de nuestra tarjeta o dispositivo
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git18.png?raw=true)
+
+![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git19.png?raw=true)
+
+![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git20.png?raw=true)
+
+![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git21.png?raw=true)
+
+![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git22.png?raw=true)
+
+![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git23.png?raw=true)
+
+![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git24.png?raw=true)
+
+![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git25.png?raw=true)
+
