@@ -91,9 +91,25 @@ si hacemos clic sobre el dispositivo, este no tendrá ninguna variable. Esto es 
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git19.png?raw=true)
 
-Para ello, vamos a nuestro plugin, en la pestaña DECODER y en la seccion DECODING FUNCTION debemos realizar decodificacion de los datos contenidos en cada mensaje
+Para ello, vamos a nuestro plugin, en la pestaña DECODER y en la seccion DECODING FUNCTION debemos realizar la decodificacion de los datos contenidos en cada mensaje
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git20.png?raw=true)
+
+En este ejemplo, cada mensaje contiene 4 variables con los siguientes formatos: 
+  - latitud
+    - tamaño : 4 bytes
+    - tipo :  flotante
+    - endianess: little endian  
+  - longitud
+    - tamaño : 4 bytes
+    - tipo :  flotante
+    - endianess: little endian    
+  - temperatura
+    - tamaño : 1 byte
+    - tipo :  entero sin signo
+  - bateria
+    - tamaño : 1 byte
+    - tipo :  entero sin signo 
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git21.png?raw=true)
 
