@@ -95,7 +95,7 @@ Para ello, vamos a nuestro plugin, en la pestaña DECODER y en la seccion DECODI
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git20.png?raw=true)
 
-En este ejemplo, cada mensaje contiene 4 variables con los siguientes formatos: 
+En este ejemplo, cada mensaje contiene 4 variables con el siguiente orden y formatos: 
   - latitud
     - tamaño : 4 bytes
     - tipo :  flotante
@@ -133,7 +133,7 @@ enseguida aparecerá la consola y comenzara a correr nuestro codigo. Despues de 
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git24.png?raw=true)
 
-Ahora si regresamos al dsipositivo dentro de Ubidots, veremos las variables que se crearon por medio del codigo
+Ahora si regresamos al dispositivo dentro de Ubidots, veremos las variables que se crearon por medio del codigo
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git25.png?raw=true)
 
@@ -155,10 +155,8 @@ nos aparecerá un recuadro donde podremos configurar varias opciones de visualiz
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git29.png?raw=true)
 
-posteriormente ya podremos agregar los widgets como mapas, graficas, indicadores, etc.
+posteriormente ya podremos agregar los widgets como mapas, graficas, indicadores, etc.  para mostrar la informacion de nuestro dispositivo
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git30.png?raw=true)
-
- para mostrar la informacion de nuestro dispositivo
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git31.png?raw=true)
