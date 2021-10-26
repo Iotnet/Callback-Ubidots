@@ -62,7 +62,7 @@ Ahora debemos configurar el callback.
   - Escribimos "application/json" en el content type
   - Pegamos el siguiente json en el body
 
-      {
+            {
         "device_id" : "{device}",
         "data" : "{data}"
       }
