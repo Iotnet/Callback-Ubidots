@@ -62,10 +62,10 @@ Ahora debemos configurar el callback.
   - Escribimos "application/json" en el content type
   - Pegamos el siguiente json en el body
 
-            {
+        {
         "device_id" : "{device}",
         "data" : "{data}"
-      }
+        }
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git14.png?raw=true)
 
