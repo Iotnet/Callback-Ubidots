@@ -1,5 +1,10 @@
 # Callback-Ubidots
 
+Primero necesitamos crear una cuenta en Ubidots. Ir al sigueinte link: 
+
+https://stem.ubidots.com/accounts/signin/
+
+y seleccionar Ubidots STEM. Seguir los pasos hasta crear una cuenta
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git1.png?raw=true)
 
