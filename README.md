@@ -81,11 +81,17 @@ tambien podemos corroborarlo llendo a nuestra cuenta de ubidots, en nuestro plug
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git17.png?raw=true)
 
-finalmente, si vamos a la pestaña de DEVICES, veremos que se creó un dispositivo con el ID de nuestra tarjeta o dispositivo
+enseguida, si vamos a la pestaña de DEVICES, veremos que se creó un dispositivo con el ID de nuestra tarjeta o dispositivo
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git18.png?raw=true)
 
+### Decodificacion del payload
+
+si hacemos clic sobre el dispositivo, este no tendrá ninguna variable. Esto es porque falta agregar codigo en Python para la decodificacion del dato en hexadecimal de los mensajes
+
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git19.png?raw=true)
+
+Para ello, vamos a nuestro plugin, en la pestaña DECODER y en la seccion DECODING FUNCTION debemos realizar decodificacion de los datos contenidos en cada mensaje
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git20.png?raw=true)
 
