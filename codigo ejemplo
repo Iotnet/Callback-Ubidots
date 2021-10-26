@@ -16,14 +16,10 @@ def decode_data(hex_array):
     time_now = int(time.time())*1000
 
     payload ={
-        "latitud": 
+        "position":
         {
-            "value": lat, 
-            "timestamp": time_now
-        },
-        "longitud": 
-        {
-            "value": lng, 
+            "lat": lat, 
+            "lng": lng,
             "timestamp": time_now
         },
         "temperatura": 
