@@ -137,16 +137,28 @@ Ahora si regresamos al dsipositivo dentro de Ubidots, veremos las variables que 
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git25.png?raw=true)
 
-
+Si seleccionamos alguna de ellas, veremos los datos de los mensajes que se han recibido
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git26.png?raw=true)
 
+### Dashboard
+
+Ahora que los datos se estaran almacenando dentro del dispositivo en Ubidots, es necesario crear el dashboard donde mostrar la informacion. Para esto debemos ir a la pestaña DATA y despues a DASHBOARDS
+
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git27.png?raw=true)
+
+seleccionamos ADD NEW DASHBOARD
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git28.png?raw=true)
 
+nos aparecerá un recuadro donde podremos configurar varias opciones de visualizacion del dashboard. UNa vez terminamos, damos clic en finalizar
+
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git29.png?raw=true)
 
+posteriormente ya podremos agregar los widgets como mapas, graficas, indicadores, etc.
+
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git30.png?raw=true)
+
+ para mostrar la informacion de nuestro dispositivo
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git31.png?raw=true)
