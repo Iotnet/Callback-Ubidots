@@ -163,4 +163,4 @@ posteriormente ya podremos agregar los widgets como mapas, graficas, indicadores
 
 Adicionalmente, podemos descargar la aplicacion de Ubidots para nuestro celular y poder visualizar nuestro dashboard
 
-![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git32.jpg?scale=40%)
+![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git32.jpg?scale=40)
