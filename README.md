@@ -99,11 +99,11 @@ En este ejemplo, cada mensaje contiene 4 variables con los siguientes formatos:
   - latitud
     - tamaño : 4 bytes
     - tipo :  flotante
-    - endianess: little endian  
+    - endianness: little endian  
   - longitud
     - tamaño : 4 bytes
     - tipo :  flotante
-    - endianess: little endian    
+    - endianness: little endian    
   - temperatura
     - tamaño : 1 byte
     - tipo :  entero sin signo
@@ -111,7 +111,17 @@ En este ejemplo, cada mensaje contiene 4 variables con los siguientes formatos:
     - tamaño : 1 byte
     - tipo :  entero sin signo 
 
+considerando lo anterior, tenemos el codigo siguiente
+
+https://github.com/Iotnet/Callback-Ubidots/blob/main/codigo%20ejemplo
+
+(dependiendo de la estructura de los mensajes, cambia el código requerido para la decodificación)
+
+Ponemos nuestro codigo y damos clic en SAVE & MAKE LIVE para guardar los cambios
+
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git21.png?raw=true)
+
+para probar nuestro codigo, podemos ir a los mensajes de nuestro dispositivo, dar clic en el icono de estatus de callback en uno de los mensajes y copiar el json con los datos
 
 ![devkit_pinout](https://github.com/Iotnet/Callback-Ubidots/blob/main/images/Ubidots_git22.png?raw=true)
 
