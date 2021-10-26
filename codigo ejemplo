@@ -1,0 +1,47 @@
+import struct
+import time
+
+def format_payload(args):
+    hex_array = args["data"]
+    payload = decode_data(hex_array)
+    return payload
+  
+def decode_data(hex_array):
+    data=hex_array
+    
+    lat= struct.unpack('!f', bytes.fromhex(data[6:8]+data[4:6]+data[2:4]+data[0:2]))[0]
+    lng= struct.unpack('!f', bytes.fromhex(data[14:16]+data[12:14]+data[10:12]+data[8:10]))[0]
+    temp = int(data[16:18], 16)
+    bat = int(data[18:20], 16)
+    time_now = int(time.time())*1000
+
+    payload ={
+        "latitud": 
+        {
+            "value": lat, 
+            "timestamp": time_now
+        },
+        "longitud": 
+        {
+            "value": lng, 
+            "timestamp": time_now
+        },
+        "temperatura": 
+        {
+            "value": temp, 
+            "timestamp": time_now
+        },
+        "bateria": 
+        {
+            "value": bat, 
+            "timestamp": time_now
+        }
+    }
+    '''
+    Put your decoding function here.
+    We recommend using Python struct package or bitwise operations 
+    to operate the binary data
+
+
+    '''
+    return payload
